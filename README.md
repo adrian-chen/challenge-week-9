@@ -24,11 +24,11 @@ fill-in-your-answer
 
 ## Link (2 points)
 
-[title-of-the-article](http://link-to-an-article-about-machine-learning-use-for-big-data)
+[How Lumiata wants to scale medicine with machine learning and APIs](https://gigaom.com/2014/01/08/lumiata-does-graph-analysis-for-medical-data-raises-4m-from-khosla/)
 
 ## Discuss how you may apply the machine learning technique mentioned in this article to another interesting problem (6 points).
 
-fill-in-your-answer
+The idea that medicine isn't treated with intuition and decidal decisions are logically made means there is a growing field in this area for machines to diagnose common illnesses. The rate at which doctors misdiagnose illness is frightening, and just like with driving, machines don't have to be perfect, they just have to be better than people. Business desicions are usually logical descisions, and though they will have many more input variables, I thnk there is a future for machines to make well informed buisiness decisions.
 
 # D3 IV
 
