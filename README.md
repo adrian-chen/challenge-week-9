@@ -82,11 +82,11 @@ The idea that medicine isn't treated with intuition and decidal decisions are lo
 
 ### 1 (6 points)
 
-[mongodb js code collecting github events about our course](mongodb/src/mongodb4.js)
+[mongodb js code collecting github events about our course](mongoDB/src/mongodb4.js)
 
 ### 2 (6 points)
 
-![terminal output of mongodb query](mongodb/screenshots/CP2.png?raw=true)
+![terminal output of mongodb query](mongoDB/screenshots/CP2.png?raw=true)
 
 ## Challenge 1 (4 points x 10 = 40 points)
 
@@ -94,61 +94,61 @@ The idea that medicine isn't treated with intuition and decidal decisions are lo
 
 > db.course_events.findOne({"actor.login": "doubleshow"})
 
-![screenshot](mongodb/screenshots/CH1.png?raw=true)
+![screenshot](mongoDB/screenshots/CH1.png?raw=true)
 
 ### 2 (4 points)
 
 > db.course_events.findOne({"actor.login": "doubleshow"}, {"actor": 1})
 
-![screenshot](mongodb/screenshots/CH2.png?raw=true)
+![screenshot](mongoDB/screenshots/CH2.png?raw=true)
 
 ### 3 (4 points)
 
 > db.course_events.find({ "actor.login" : {$in : ["doubleshow", "chrisbopp"]}},{"created_at":1})
 
-![screenshot](mongodb/screenshots/CH3.png?raw=true)
+![screenshot](mongoDB/screenshots/CH3.png?raw=true)
 
 ### 4 (4 points)
 
 > db.course_events.findOne({'type':'PushEvent'})
 
-![screenshot](mongodb/screenshots/CH4.png?raw=true)
+![screenshot](mongoDB/screenshots/CH4.png?raw=true)
 
 ### 5 (4 points)
 
 > db.course_events.find({'type':'PushEvent'},{'payload.commits.author.name':1})
 
-![screenshot](mongodb/screenshots/CH5.png?raw=true)
+![screenshot](mongoDB/screenshots/CH5.png?raw=true)
 
 ### 6 (4 points)
 
 > db.course_events.findOne({"type": "IssuesEvent"},{"payload":1})
 
-![screenshot](mongodb/screenshots/CH6.png?raw=true)
+![screenshot](mongoDB/screenshots/CH6.png?raw=true)
 
 ### 7 (4 points)
 
 > db.course_events.find({"type": "IssuesEvent"},{"payload.issue.user.login":1});
 
-![screenshot](mongodb/screenshots/CH7.png?raw=true)
+![screenshot](mongoDB/screenshots/CH7.png?raw=true)
 
 ### 8 (4 points)
 
 > db.course_events.find({"type": "IssuesEvent","payload.issue.state":"closed"},{"payload.issue.user.login":1,"payload.issue.state":1});
 
-![screenshot](mongodb/screenshots/CH8.png?raw=true)
+![screenshot](mongoDB/screenshots/CH8.png?raw=true)
 
 ### 9 (4 points)
 
 > db.course_events.find({"type": "IssuesEvent","payload.issue.state":"open"},{"payload.issue.user.login":1,"payload.issue.state":1});
 
-![screenshot](mongodb/screenshots/CH9.png?raw=true)
+![screenshot](mongoDB/screenshots/CH9.png?raw=true)
 
 ### 10 (4 points)
 
 > db.course_events.find({"type": "IssuesEvent","payload.issue.comments":{$gt:0}},{"payload.issue.user.login":1,"payload.issue.comments":1});
 
-![screenshot](mongodb/screenshots/CH10.png?raw=true)
+![screenshot](mongoDB/screenshots/CH10.png?raw=true)
 
 
 ## Challenge 2 (8 points x 2 = 16 points) 
@@ -159,7 +159,7 @@ What are the open issues about?
 
 > db.course_events.find({"type": "IssuesEvent","payload.issue.state":"open"},{"payload.issue.body":1});
 
-![screenshot](mongodb/screenshots/CH11.png?raw=true)
+![screenshot](mongoDB/screenshots/CH11.png?raw=true)
 
 ### 2 (8 points)
 
@@ -168,4 +168,4 @@ How many site admins are active on our repo?
 > db.course_events.find({"payload.issue.user.site_admin": true}).count()
 > db.course_events.find({"payload.issue.user.site_admin": false}).count()
 
-![screenshot](mongodb/screenshots/CH12.png?raw=true)
+![screenshot](mongoDB/screenshots/CH12.png?raw=true)
