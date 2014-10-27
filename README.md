@@ -36,43 +36,43 @@ The idea that medicine isn't treated with intuition and decidal decisions are lo
 
 # 1. (3 points)
 
-![image](image.png?raw=true)
+![image](d3/screenshots/CP1.png?raw=true)
 
-[checkpoint](checkpoint.html)
+[checkpoint](d3/src/checkpoint1.html)
 
 # 2. (3 points)
 
-![image](image.png?raw=true)
+![image](d3/screenshots/CP2.png?raw=true)
 
-[checkpoint](checkpoint.html)
+[checkpoint](d3/src/checkpoint2.html)
 
 # 3. (3 points)
 
-![image](image.png?raw=true)
+![image](d3/screenshots/CP3.png?raw=true)
 
-[checkpoint](checkpoint.html)
+[checkpoint](d3/src/checkpoint3.html)
 
 # 4. (3 points)
 
-![image](image.png?raw=true)
+![image](d3/screenshots/CP4.png?raw=true)
 
-[checkpoint](checkpoint.html)
+[checkpoint](d3/src/checkpoint4.html)
 
 ## Challenges (4 points x 3 = 12 points)
 
 # 1. (4 points)
 
-![image](image.png?raw=true)
+![image](d3/screenshots/CH1.png?raw=true)
 
 # 2. (4 points)
 
-![image](image.png?raw=true)
+![image](d3/screenshots/CH2.png?raw=true)
 
 # 3. (4 points)
 
-![image](image.png?raw=true)
+![image](d3/screenshots/CH3.png?raw=true)
 
-[challenge3](challenge3.html)
+[challenge3](d3//srcchallenge3.html)
 
 
 
@@ -82,11 +82,11 @@ The idea that medicine isn't treated with intuition and decidal decisions are lo
 
 ### 1 (6 points)
 
-[mongodb js code collecting github events about our course](mongodb-github.js)
+[mongodb js code collecting github events about our course](mongodb/src/mongodb4.js)
 
 ### 2 (6 points)
 
-![terminal output of mongodb query](screenshot.png?raw=true)
+![terminal output of mongodb query](mongodb/screenshots/CP2.png?raw=true)
 
 ## Challenge 1 (4 points x 10 = 40 points)
 
@@ -94,61 +94,61 @@ The idea that medicine isn't treated with intuition and decidal decisions are lo
 
 > db.course_events.[complete this query]
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](mongodb/screenshots/CH1.png?raw=true)
 
 ### 2 (4 points)
 
 > db.course_events.[complete this query]
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](mongodb/screenshots/CH2.png?raw=true)
 
 ### 3 (4 points)
 
 > db.course_events.[complete this query]
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](mongodb/screenshots/CH3.png?raw=true)
 
 ### 4 (4 points)
 
 > db.course_events.[complete this query]
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](mongodb/screenshots/CH4.png?raw=true)
 
 ### 5 (4 points)
 
 > db.course_events.[complete this query]
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](mongodb/screenshots/CH5.png?raw=true)
 
 ### 6 (4 points)
 
 > db.course_events.[complete this query]
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](mongodb/screenshots/CH6.png?raw=true)
 
 ### 7 (4 points)
 
 > db.course_events.[complete this query]
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](mongodb/screenshots/CH7.png?raw=true)
 
 ### 8 (4 points)
 
 > db.course_events.[complete this query]
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](mongodb/screenshots/CH8.png?raw=true)
 
 ### 9 (4 points)
 
 > db.course_events.[complete this query]
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](mongodb/screenshots/CH9.png?raw=true)
 
 ### 10 (4 points)
 
 > db.course_events.[complete this query]
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](mongodb/screenshots/CH10.png?raw=true)
 
 
 ## Challenge 2 (8 points x 2 = 16 points) 
@@ -159,7 +159,7 @@ The idea that medicine isn't treated with intuition and decidal decisions are lo
 
 > db.course_events.[complete this query]
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](mongodb/screenshots/CH11.png?raw=true)
 
 ### 2 (8 points)
 
@@ -167,4 +167,4 @@ The idea that medicine isn't treated with intuition and decidal decisions are lo
 
 > db.course_events.[complete this query]
 
-![screenshot](screenshot.png?raw=true)
+![screenshot](mongodb/screenshots/CH12.png?raw=true)
